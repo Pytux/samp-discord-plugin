@@ -127,3 +127,4 @@ samp.neucomx.com:7777=guerrasmundiales
 ip.redeparadox.com:7777=redparadoxrpg
 217.160.43.156:3800=sapucopchase
 23.94.134.118:7777=eliterp
+141.193.68.165:7777=seoulrp
