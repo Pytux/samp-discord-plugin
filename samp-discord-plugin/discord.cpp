@@ -23,7 +23,7 @@ namespace Discord
 		handlers.joinGame = joinGame;
 		handlers.spectateGame = spectateGame;
 		handlers.joinRequest = joinRequest;
-		Discord_Initialize("416719211960991756", &handlers, 1, nullptr);
+		Discord_Initialize("926266285120176128", &handlers, 1, nullptr);
 		Discord_ClearPresence();
 	}
 

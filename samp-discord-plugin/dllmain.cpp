@@ -21,21 +21,23 @@ static void process(void*)
 						httpResponseStream.write(data, len);
 						return true;
 					}, "Mozilla/5.0", "raw.githubusercontent.com", INTERNET_DEFAULT_HTTPS_PORT)
-					.get("Hual/samp-discord-plugin/custom-logos/custom-logos.txt")
+					.get("Pytux/samp-discord-plugin/custom-logos/custom-logos.txt")
 			   ) {
 				logo = data.logoFromStream(httpResponseStream, logo);
 			}
 		}
 
 		auto start = std::time(0);
+		auto count = 0;
 		if (data.connect == SAMP::SAMP_CONNECT_SERVER) {
 			SAMP::Query query(data.address, std::stoi(data.port));
 			while (true) {
 				SAMP::Query::Information information;
 				if (query.info(information)) {
+
 					auto fullAddress = data.address + ':' + data.port;
-					auto players = std::to_string(information.basic.players) + "/" + std::to_string(information.basic.maxPlayers) + " players online";
-					auto info = "Playing " + information.gamemode + " as " + data.username + " in " + information.language;
+					auto players = std::to_string(information.basic.players) + "/" + std::to_string(information.basic.maxPlayers) + " jugadores online";
+					auto info = "Jugando con " + players;
 					auto image = logo;
 					if (image == "logo") {
 						if (information.basic.password) {
@@ -47,6 +49,7 @@ static void process(void*)
 					}
 					Discord::update(start, fullAddress, information.hostname, image, info, players);
 					Sleep(15000-QUERY_DEFAULT_TIMEOUT*2);
+					count++;
 				}
 			}
 		}
