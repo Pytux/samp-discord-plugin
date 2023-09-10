@@ -23,7 +23,7 @@ namespace Discord
 		handlers.joinGame = joinGame;
 		handlers.spectateGame = spectateGame;
 		handlers.joinRequest = joinRequest;
-		Discord_Initialize("926266285120176128", &handlers, 1, nullptr);
+		Discord_Initialize("1150266362451742781", &handlers, 1, nullptr);
 		Discord_ClearPresence();
 	}
 
@@ -38,7 +38,7 @@ namespace Discord
 		discordPresence.smallImageKey = "info";
 		discordPresence.smallImageText = infoDetails;
 
-		discordPresence.button1Label = u8"¡Únete a nuestro discord!";
+		discordPresence.button1Label = u8"!Ãšnte a nuestro discord!";
 		discordPresence.button1Url = discordUrl;
 
 		Discord_UpdatePresence(&discordPresence);

@@ -40,14 +40,7 @@ static void process(void*)
 					auto players = std::to_string(information.basic.players) + "/" + std::to_string(information.basic.maxPlayers) + " jugadores online";
 					auto info = "Jugando con " + players;
 					auto image = logo;
-					if (image == "logo") {
-						if (information.basic.password) {
-							image = "lock";
-						}
-						else if (information.basic.players < 10) {
-							image = "tumbleweed";
-						}
-					}
+
 					Discord::update(start, fullAddress, information.hostname, image, info, players, discordUrl);
 					Sleep(15000 - QUERY_DEFAULT_TIMEOUT * 2);
 				}
