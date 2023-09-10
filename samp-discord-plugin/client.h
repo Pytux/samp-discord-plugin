@@ -2,6 +2,7 @@
 
 #include <string>
 #include <sstream>
+#include <vector>
 
 namespace SAMP
 {
@@ -17,7 +18,7 @@ namespace SAMP
 		std::string port;
 		std::string username;
 
-		std::string logoFromStream(std::stringstream& stream, std::string default);
+		std::vector<std::string> getDataFromStream(std::stringstream& stream, std::string default);
 	};
 
 	bool readServerData(const char* cmdline, ServerData& data);

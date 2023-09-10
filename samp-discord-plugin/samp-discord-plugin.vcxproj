@@ -59,6 +59,7 @@
     <ClCompile Include="client.cpp" />
     <ClCompile Include="http.cpp" />
     <ClCompile Include="query.cpp" />
+    <ClCompile Include="utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="discord-rpc\discord_rpc.h" />
@@ -66,6 +67,7 @@
     <ClInclude Include="client.h" />
     <ClInclude Include="http.h" />
     <ClInclude Include="query.h" />
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

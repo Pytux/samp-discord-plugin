@@ -1,5 +1,5 @@
 #include "discord.h"
-
+#include <string>
 namespace Discord
 {
 	static void ready(const DiscordUser* request) {}
@@ -27,7 +27,7 @@ namespace Discord
 		Discord_ClearPresence();
 	}
 
-	void update(const time_t time, const char* state, const char* details, const char* image, const char* imageDetails, const char* infoDetails)
+	void update(const time_t time, const char* state, const char* details, const char* image, const char* imageDetails, const char* infoDetails, const char* discordUrl)
 	{
 		DiscordRichPresence discordPresence = { 0 };
 		discordPresence.state = state;
@@ -37,6 +37,12 @@ namespace Discord
 		discordPresence.largeImageText = imageDetails;
 		discordPresence.smallImageKey = "info";
 		discordPresence.smallImageText = infoDetails;
+
+		discordPresence.button1Label = u8"¡Únete a nuestro discord!";
+		discordPresence.button1Url = discordUrl;
+
 		Discord_UpdatePresence(&discordPresence);
+
+		
 	}
 }

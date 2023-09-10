@@ -1,8 +1,8 @@
 #include <process.h>
-#include "client.h"
 #include "discord.h"
 #include "query.h"
 #include "http.h"
+#include "client.h"
 
 static void process(void*)
 {
@@ -12,7 +12,8 @@ static void process(void*)
 	Discord::initialize();
 	if (SAMP::readServerData(GetCommandLine(), data)) {
 		std::string logo = "logo";
-		{
+		std::string discordUrl = "";
+		
 			std::stringstream httpResponseStream;
 			if (
 				HTTP::WebRequest(
@@ -23,12 +24,12 @@ static void process(void*)
 					}, "Mozilla/5.0", "raw.githubusercontent.com", INTERNET_DEFAULT_HTTPS_PORT)
 					.get("Pytux/samp-discord-plugin/custom-logos/custom-logos.txt")
 			   ) {
-				logo = data.logoFromStream(httpResponseStream, logo);
-			}
+				auto serverInfo = data.getDataFromStream(httpResponseStream, logo);
+				logo = serverInfo[0];
+				discordUrl = serverInfo[1];
 		}
 
 		auto start = std::time(0);
-		auto count = 0;
 		if (data.connect == SAMP::SAMP_CONNECT_SERVER) {
 			SAMP::Query query(data.address, std::stoi(data.port));
 			while (true) {
@@ -47,15 +48,14 @@ static void process(void*)
 							image = "tumbleweed";
 						}
 					}
-					Discord::update(start, fullAddress, information.hostname, image, info, players);
-					Sleep(15000-QUERY_DEFAULT_TIMEOUT*2);
-					count++;
+					Discord::update(start, fullAddress, information.hostname, image, info, players, discordUrl);
+					Sleep(15000 - QUERY_DEFAULT_TIMEOUT * 2);
 				}
 			}
 		}
 		else if (data.connect == SAMP::SAMP_CONNECT_DEBUG) {
 			while (true) {
-				Discord::update(start, "localhost", "Debug server", "tumbleweed", "Playing debug mode in English", "Most likely 1 player online as it's debug mode");
+				Discord::update(start, "localhost", "Debug server", "tumbleweed", "Playing debug mode in English", "Most likely 1 player online as it's debug mode", "");
 				Sleep(15000);
 			}
 		}
