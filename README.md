@@ -1,11 +1,17 @@
 # SA:MP Discord Rich Presence plugin
 
-This plugin features custom server logos. 
+Este plugin incluye logos e información de servidores personalizados.
 
-## How to add your own servers with custom logos:
-If you'd like your server added to the custom logos list, [create an issue](https://github.com/Hual/samp-discord-plugin/issues) with a 512x512 logo (must be only either PNG, JPEG, or JPG) attached and your server's IP address.
 
-## Preview:
-![Screenshot](https://i.imgur.com/PqvWFbp.png)
-![Screenshot](https://i.imgur.com/CXh1hDT.png)
-![Screenshot](https://i.imgur.com/khG9OZe.png)
+## ¿Como agregar tu servidor al plugin?:
+Si quieres agregar tu servidor para que salga tu logo y discord cuando los usuarios ingresen debes [crear una issue](https://github.com/Pytux/samp-discord-plugin/issues) con los siguientes datos de tu servidor:
+- Nombre del servidor
+- IP numerica y puerto
+- Link de invitacion a discord
+- Logo del servidor (Discord recomienda la resolucion de 1024x1024 y como minimo la debe tener 512x512 de resolucion, en alguno de los siguientes formatos: ".png, .jpg o .jpeg". Si no se cumple sera rechazada la solicitud)
+
+## Discord
+¿Tienes problemas o dudas sobre el plugin? Puedes ingresar a nuestro [discord](https://dsc.gg/samprichp)
+
+## Vista previa:
+![Screenshot](https://i.imgur.com/V1SgbiF.png)

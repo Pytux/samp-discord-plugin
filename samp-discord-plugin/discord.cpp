@@ -38,7 +38,7 @@ namespace Discord
 		discordPresence.smallImageKey = "info";
 		discordPresence.smallImageText = infoDetails;
 
-		discordPresence.button1Label = u8"!Únte a nuestro discord!";
+		discordPresence.button1Label = "¡Unete a nuestro discord!";
 		discordPresence.button1Url = discordUrl;
 
 		Discord_UpdatePresence(&discordPresence);
