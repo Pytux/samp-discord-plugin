@@ -38,8 +38,10 @@ namespace Discord
 		discordPresence.smallImageKey = "info";
 		discordPresence.smallImageText = infoDetails;
 
-		discordPresence.button1Label = "¡Unete a nuestro discord!";
-		discordPresence.button1Url = discordUrl;
+		if (std::strlen(discordUrl) > 5) {
+			discordPresence.button1Label = "¡Unete a nuestro discord!";
+			discordPresence.button1Url = discordUrl;
+		}
 
 		Discord_UpdatePresence(&discordPresence);
 
