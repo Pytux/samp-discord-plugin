@@ -1,3 +1,4 @@
 141.193.68.165:7777=seoulrp|https://discord.gg/a4EnRGfjMN
 89.46.2.78:7007=n_v_rp|https://discord.gg/NXwEYDhuVe
 38.180.41.42:7777=arp|https://discord.astral-rp.com
+89.46.2.32:7777=gtales|https://discord.gg/tY86JJSQRg
