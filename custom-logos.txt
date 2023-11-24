@@ -2,3 +2,4 @@
 89.46.2.78:7007=n_v_rp|https://discord.gg/NXwEYDhuVe
 38.180.41.42:7777=arp|https://discord.astral-rp.com
 89.46.2.32:7777=gtales|https://discord.gg/tY86JJSQRg
+51.222.22.65:7777=clrp|https://discord.gg/cl-rp
