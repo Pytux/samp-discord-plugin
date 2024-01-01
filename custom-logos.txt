@@ -6,5 +6,5 @@
 216.238.71.9:7751=lrp|https://discord.gg/uUQx2E5ZMJ
 149.56.242.37:7777=wzrp|https://discord.gg/westzonerp
 144.217.179.228:7777=vprp|https://discord.gg/vespuccirp
-216.238.70.24:7777=grp|https://discord.gg/Hgy96WThBN
+216.238.70.24:7777=spain|https://discord.gg/tsNFvYRBdp
 51.254.139.153:7777=movie|https://discord.gg/gFUGHHs
