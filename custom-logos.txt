@@ -15,3 +15,4 @@
 144.217.123.12:7777=sd1|https://discord.gg/ryMSBdBgrM
 144.217.123.13:7777=sd2|https://discord.gg/CbrczMQYE5
 144.217.174.213:7777=latamg|https://discord.gg/latamgamersrp
+135.148.89.12:7777=purod|https://discord.gg/BjUGcpcYUt
