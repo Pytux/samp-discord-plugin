@@ -12,3 +12,4 @@
 54.39.85.215:7777=newg|https://discord.gg/WYxteEA
 51.222.193.90:7777=newg|https://discord.gg/WYxteEA
 144.217.58.224:7777=newg|https://discord.gg/WYxteEA
+144.217.123.12:7777=sd1|https://discord.gg/ryMSBdBgrM
