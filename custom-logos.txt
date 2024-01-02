@@ -14,3 +14,4 @@
 144.217.58.224:7777=newg|https://discord.gg/WYxteEA
 144.217.123.12:7777=sd1|https://discord.gg/ryMSBdBgrM
 144.217.123.13:7777=sd2|https://discord.gg/CbrczMQYE5
+144.217.174.213:7777=latamg|https://discord.gg/latamgamersrp
