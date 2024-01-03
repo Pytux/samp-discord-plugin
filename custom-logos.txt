@@ -16,3 +16,7 @@
 144.217.123.13:7777=sd2|https://discord.gg/CbrczMQYE5
 144.217.174.213:7777=latamg|https://discord.gg/latamgamersrp
 135.148.89.12:7777=purod|https://discord.gg/BjUGcpcYUt
+192.99.78.134:7777=ozrp|https://discord.gg/FnkbbdXU7k
+144.217.10.170:7777=ozrp|https://discord.gg/FnkbbdXU7k
+158.69.139.139:7777=ozrp|https://discord.gg/FnkbbdXU7k
+192.99.78.133:7777=ozrp|https://discord.gg/FnkbbdXU7k
