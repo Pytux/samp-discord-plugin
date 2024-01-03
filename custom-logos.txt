@@ -21,3 +21,4 @@
 158.69.139.139:7777=ozrp|https://discord.gg/FnkbbdXU7k
 192.99.78.133:7777=ozrp|https://discord.gg/FnkbbdXU7k
 198.50.207.186:7777=dixel|https://discord.gg/yy4Xcm6ebR
+54.39.139.249:7777=galaxy|https://discord.gg/kbxhYDN
