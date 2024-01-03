@@ -23,3 +23,4 @@
 198.50.207.186:7777=dixel|https://discord.gg/yy4Xcm6ebR
 54.39.139.249:7777=galaxy|https://discord.gg/kbxhYDN
 149.56.159.66:7777=neshy|https://discord.neshy-rp.com
+54.39.73.86:7777=medallorp|https://discord.gg/3SE7FJWShT
