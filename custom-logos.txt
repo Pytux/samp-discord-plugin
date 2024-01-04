@@ -24,3 +24,4 @@
 54.39.139.249:7777=galaxy|https://discord.gg/kbxhYDN
 149.56.159.66:7777=neshy|https://discord.neshy-rp.com
 54.39.73.86:7777=medallorp|https://discord.gg/3SE7FJWShT
+89.46.2.138:7777=downrp|https://discord.gg/WThCZ8e27p
