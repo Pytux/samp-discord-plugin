@@ -28,3 +28,4 @@
 144.217.147.252:7777=gtaleg|https://discord.gg/Wa8UedA38e
 89.46.2.84:7777=rolven|https://discord.gg/rolven-rp-venezuela-gta-v-samp-621187840189005835
 149.56.41.54:7777=alphaz|https://discord.gg/AAaGC3dVhN
+149.56.41.53:7782=gotham|https://discord.gg/XW9D6Mqfk3
