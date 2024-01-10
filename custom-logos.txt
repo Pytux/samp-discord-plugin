@@ -26,3 +26,4 @@
 54.39.73.86:7777=medallorp|https://discord.gg/3SE7FJWShT
 89.46.2.138:7777=downrp|https://discord.gg/WThCZ8e27p
 144.217.147.252:7777=gtaleg|https://discord.gg/Wa8UedA38e
+89.46.2.84:7777=rolven|https://discord.gg/rolven-rp-venezuela-gta-v-samp-621187840189005835
