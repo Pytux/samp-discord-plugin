@@ -7,7 +7,7 @@
 149.56.242.37:7777=wzrp|https://discord.gg/westzonerp
 142.44.222.93:7777=wzrp|https://discord.gg/westzonerp
 144.217.179.228:7777=vprp|https://discord.gg/vespuccirp
-216.238.70.24:7777=gabo|https://discord.gg/tsNFvYRBdp
+216.238.70.24:7777=hzrp|https://discord.gg/tsNFvYRBdp
 51.254.139.153:7777=movie|https://discord.gg/gFUGHHs
 54.39.85.215:7777=newg|https://discord.gg/WYxteEA
 51.222.193.90:7777=newg|https://discord.gg/WYxteEA
