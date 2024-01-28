@@ -31,4 +31,5 @@
 149.56.41.53:7782=gotham|https://discord.gg/XW9D6Mqfk3
 66.70.170.175:7777=superrp|https://discord.gg/NDp9keXXRQ
 23.167.232.35:6666=calirp|https://discord.gg/wKbB4ENZvJ
+38.45.67.208:7004=arcarp|https://discord.gg/FjKUASJYAz
 
