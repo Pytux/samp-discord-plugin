@@ -33,3 +33,4 @@
 23.167.232.35:6666=calirp|https://discord.gg/wKbB4ENZvJ
 38.45.67.208:7004=arcarp|https://discord.gg/FjKUASJYAz
 148.59.74.52:7777=sarp|https://discord.gg/sanandreasroleplay
+54.39.196.145:7777=gsrp|https://discord.gg/goldstate
