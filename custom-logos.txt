@@ -35,3 +35,4 @@
 148.59.74.52:7777=sarp|https://discord.gg/sanandreasroleplay
 54.39.196.145:7777=gsrp|https://discord.gg/goldstate
 23.167.232.118:7777=ganton|https://dsc.gg/gantonrp
+23.230.3.208:7777=undergs|https://discord.gg/q6aX2QjCeN
