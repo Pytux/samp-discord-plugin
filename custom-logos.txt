@@ -38,3 +38,4 @@
 23.230.3.208:7777=undergs|https://discord.gg/q6aX2QjCeN
 172.96.172.126:7802=naruto|https://discord.gg/NsEa3HBd9p
 102.129.137.55:7777=adyszone|https://discord.gg/Rr7YVQD5G3
+102.129.137.17:7777=mystic|https://discord.gg/7qcvX6ZNaM
