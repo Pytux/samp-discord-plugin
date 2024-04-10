@@ -39,3 +39,4 @@
 172.96.172.126:7802=naruto|https://discord.gg/NsEa3HBd9p
 102.129.137.55:7777=adyszone|https://discord.gg/Rr7YVQD5G3
 102.129.137.17:7777=mystic|https://discord.gg/7qcvX6ZNaM
+107.173.122.27:7778=mhrp|https://discord.com/invite/j3gMg8drGg
