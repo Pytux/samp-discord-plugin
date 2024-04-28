@@ -42,3 +42,4 @@
 107.173.122.27:7778=mhrp|https://discord.com/invite/j3gMg8drGg
 144.217.83.124=losangrp|https://discord.com/invite/CrKtd8puSP
 85.239.243.38:7780=goldenh|https://discord.gg/6mMeWrMm8e
+192.99.185.74:7777=sunshine|https://discord.gg/JGuBwFt38p
