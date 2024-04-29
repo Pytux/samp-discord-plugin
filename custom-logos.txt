@@ -43,3 +43,4 @@
 144.217.83.124=losangrp|https://discord.com/invite/CrKtd8puSP
 85.239.243.38:7780=goldenh|https://discord.gg/6mMeWrMm8e
 192.99.185.74:7777=sunshine|https://discord.gg/JGuBwFt38p
+135.148.137.135:40061=rockwell|https://discord.gg/d6HbdE8MjV
